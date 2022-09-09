@@ -1,5 +1,3 @@
-
-
 1. Explain a situation where you have made an ethical decision. Discuss how you weighed up the values involved in that decision, the decision you made, and how you reflect on the decision now.
 
 Yesterday and friend and I were in a rush to get a train and I noticed somebody's mobile phone was on the ground outside the train station. Instead of just running past it to get our train I stopped and thought about what we should do so that the person can get their phone back (e.g. where can we leave it, what about weather, how do we make sure they'll be able to find it). I picked it up and unfortunately the screen was cracked to hell anyway, so although the back of the phone was in perfect condition the front screen was totally destroyed. We ended up leaving in the same spot we found it because it was clearly already pretty severely damaged, and if they were going to come back for it for any reason it's probably best we leave it where they'd expect to find it.
