@@ -1,0 +1,27 @@
+{
+  "headerLinks": [
+    {
+      "type": "link",
+      "text": "Homepage",
+      "link": "index.html"
+    },
+    {
+      "type": "group",
+      "text": "Sprint 1",
+      "links": [
+        {
+          "name": "Identity and Values"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "text": "Sprint 2",
+      "links": [
+        {
+          "name": "Learning Plan"
+        }
+      ]
+    }
+  ]
+}
