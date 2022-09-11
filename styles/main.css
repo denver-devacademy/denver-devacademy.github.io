@@ -1,0 +1,64 @@
+/* import inter font */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+html {
+  /* variables */
+  --default-margin: 10px;
+}
+
+/* other styles */
+body {
+  background-color: rgb(41, 41, 41);
+  color: pink;
+  margin: 0px;
+}
+
+h1 {
+  background-color: pink;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  /* margin: 0px 10px 10px 10px; */
+  margin: var(--default-margin,0px);
+  /* margin: 0px; */
+}
+
+p {
+  margin: var(--default-margin,0px);
+}
+
+h1 + p {
+  margin-top: 15px;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  margin: var(--default-margin,0px);
+}
+
+#header {
+  display: block;
+  width: 100%;
+  /* border: 1px solid #ccc; */
+  margin: 0px;
+  padding: 10px;
+}
+
+.header-nav-item {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 0px 6px 0px 0px;
+  /* font-weight: bold; */
+}
+
+.header-nav-item > a {
+  color: pink;
+  text-decoration: none;
+}
