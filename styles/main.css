@@ -34,6 +34,10 @@ h1 + p {
   margin-top: 15px;
 }
 
+h2 {
+  margin: var(--default-margin, 0px);
+}
+
 a {
   color: white;
 }
@@ -61,4 +65,21 @@ hr {
 .header-nav-item > a {
   color: pink;
   text-decoration: none;
+}
+
+table {
+  margin: 10px;
+}
+
+table, td, th {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+code {
+  border: 1px solid rgb(141, 141, 141); 
+  padding: 3px;
+  color: red;
+  font-weight: bold;
+  display: inline-block;
 }
