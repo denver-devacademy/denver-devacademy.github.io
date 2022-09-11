@@ -26,6 +26,12 @@ h1 {
   /* margin: 0px; */
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1em;
+  }
+}
+
 p {
   margin: var(--default-margin,0px);
 }
