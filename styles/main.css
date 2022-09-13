@@ -89,3 +89,31 @@ code {
   font-weight: bold;
   display: inline-block;
 }
+
+.spinning {
+  animation: spinning 500ms ease infinite;
+  font-size: 2em;
+  width: 1em;
+  display: inline-block;
+  /* margin: 0.5em; */
+}
+
+.spinning-adjacent {
+  width: 8em;
+  margin: 0px 1em 0px 1em;
+}
+
+.spinning-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 200px; */
+  /* border: 3px solid green;  */
+  padding: 5px 5px 0px 5px;
+}
+
+@keyframes spinning {
+  0% {  transform: rotate(0deg); }
+  50% {  transform: rotate(180deg); }
+  100% {  transform: rotate(360deg); }
+}
