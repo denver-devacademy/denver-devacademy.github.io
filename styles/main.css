@@ -117,3 +117,14 @@ code {
   50% {  transform: rotate(180deg); }
   100% {  transform: rotate(360deg); }
 }
+
+#content-body {
+  max-width: 80vw;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  #content-body {
+    max-width: 100%
+  }
+}
